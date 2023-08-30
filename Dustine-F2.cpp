@@ -17,7 +17,7 @@ katafloor="Hasil Pembulatan floor ";
 katatrunc ="Hasil Pembulatan trunc ";
 
 cout << "Masukan bilangan pecahan : ";
-cin >> pecahan ;
+cin >> pecahan;
 vround = round(pecahan);
 vceil = ceil(pecahan);
 vfloor = floor(pecahan);
@@ -26,6 +26,7 @@ vtrunc = trunc(pecahan);
 
 cout << kataround << vround << "\n";
 cout << kataceil << vceil << "\n";
+cout << katafloor << vfloor << "\n";
 cout << katatrunc << vtrunc << "\n";
 
     return 0;
